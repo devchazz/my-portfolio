@@ -1,0 +1,33 @@
+.container-about {
+  min-height: 90vh;
+  padding: 20px 200px;
+  background-color: black;
+}
+.justify {
+  text-align: justify;
+  text-indent: 20px;
+}
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-image {
+  border: 3px solid rgb(59, 197, 117);
+  border-radius: 50%;
+  min-height: 140px;
+  min-width: 140px;
+  max-width: 240px;
+  max-height: 240px;
+}
+.hoverGreen:hover {
+  color: rgb(59, 197, 117);
+}
+
+@media screen and (max-width: 900px) {
+  .container-about {
+    min-height: 90vh;
+    padding: 10px;
+    background-color: black;
+  }
+}

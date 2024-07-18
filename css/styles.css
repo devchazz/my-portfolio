@@ -1,0 +1,57 @@
+/* Page config: */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+* {
+  font-family: "Poppins", sans-serif, serif, Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+body {
+  font-family: sans-serif, serif, Arial;
+  min-height: 100%;
+  letter-spacing: 1px;
+  background-color: #171717;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: white;
+}
+
+main {
+  min-height: 90vh;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+}
+p {
+  font-size: 1.2em;
+}
+.justify {
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 1em;
+  }
+}

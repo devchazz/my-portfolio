@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chazz</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <header>
+      <div id="containerTitleDropDown">
+        <h1><a class="hoverGreen" href="index.html">C</a></h1>
+        <button onclick="toggleDropDown()" id="btnDropDown" class="hoverGreen">
+          &#9776;
+        </button>
+      </div>
+      <nav id="dropDownElements">
+        <ul>
+          <li><a class="hoverGreen" href="about.html">About</a></li>
+          <li><a class="hoverGreen" href="contact.html">Contact</a></li>
+        </ul>
+        <a id="btnProjects" href="projects.html">Projects</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container-about">
+        <div class="centralize">
+          <img class="circle-image" src="./images/JrGbZ3d.jpeg" />
+        </div>
+
+        <div>
+          <div>
+            <h2>Miguel Antunes "Chazz"</h2>
+            <br />
+            <p class="justify">
+              I'm a full stack developer. I can create responsive web pages,
+              applications and games.<br />
+            </p>
+            <p class="justify">
+              My focus is on using JavaScript, on the front and back end. I also
+              have experience with game development using Godot and desktop apps
+              using Electron. You can see my main projects by
+              <a href="projects.html"> clicking here</a>
+              , and you can get to work with me by
+              <a href="contact.html">clicking here</a>.
+            </p>
+            <p class="justify">
+              I currently live in Brazil and I'm graduating in systems analysis
+              and development (scheduled to be completed in 2025).
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Thank you for visiting</p>
+    </footer>
+    <script src="./js/headerDropDown.js"></script>
+  </body>
+</html>
