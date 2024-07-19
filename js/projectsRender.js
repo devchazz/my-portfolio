@@ -28,6 +28,7 @@ const renderProjects = (place, arr) => {
     projectImageContainer.appendChild(projectImage);
 
     projectLink.href = e.link;
+    projectLink.target = "_blank";
     projectImage.src = e.image;
     projectName.textContent = e.name;
     projectDescription.textContent = e.description;
