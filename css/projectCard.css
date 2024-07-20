@@ -2,8 +2,8 @@ a {
   text-decoration: none;
 }
 .projectCard {
-  width: 100%;
   margin: 20px 0;
+  padding: 3px;
   min-height: 200px;
   display: flex;
   margin: 10px;
@@ -30,9 +30,6 @@ a {
   min-height: 130px;
   width: 50em;
   margin: 0 auto;
-}
-.projectCard p {
-  text-align: justify;
 }
 
 @media screen and (max-width: 600px) {

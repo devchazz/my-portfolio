@@ -32,7 +32,7 @@ const PokedexApp = new Project(
 const MemoryGame = new Project(
   "Memory Game",
   "https://i.imgur.com/4TEeK36.png",
-  "",
+  "https://669bc464b2a59474d49e9147--elaborate-trifle-617173.netlify.app/",
   "https://github.com/devchazz/memory-game",
   "Memory Card game, created using Vue."
 );
@@ -53,7 +53,7 @@ const FinancialOrganizer = new Project(
 const WhatShouldIPlay = new Project(
   "What Should I Play?",
   "https://i.imgur.com/75xmJ5L.png",
-  "",
+  "https://669bc395cddb9be65c9bdfce--frabjous-fox-8c6ebb.netlify.app/",
   "https://github.com/devchazz/what-should-i-play",
   "A app that helps you to choose what you should play today randomly. Works as a random task picker. Created using Vue."
 );
