@@ -18,7 +18,7 @@ const ChazzCardGame = new Project(
 const CassioSite = new Project(
   "Cassio Site",
   "https://i.imgur.com/ARNkbnr.png",
-  "",
+  "https://669b2fb81a7db473fe9ec787--lustrous-brigadeiros-2b43dd.netlify.app/",
   "",
   "Responsive web site created for the artist Cassio using React."
 );

@@ -35,8 +35,16 @@ a {
   text-align: justify;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 600px) {
+  .projectCard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectCard h3 {
+    text-align: center;
+  }
   .projectCard img {
-    height: 120px;
+    height: 150px;
   }
 }

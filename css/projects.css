@@ -1,9 +1,3 @@
 #allProjectsContainer {
-  padding: 20px 180px;
-}
-
-@media screen and (max-width: 1000px) {
-  #allProjectsContainer {
-    padding: 15px;
-  }
+  padding: 20px;
 }

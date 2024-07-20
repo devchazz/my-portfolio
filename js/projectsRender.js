@@ -1,13 +1,5 @@
-mainProjects = [ChazzCardGame, CassioSite, MemoryGame];
-allProjects = [
-  ChazzCardGame,
-  CassioSite,
-  PokedexApp,
-  MemoryGame,
-  WhatShouldIPlay,
-  BhaskaraOnline,
-  FinancialOrganizer,
-];
+mainProjects = [ChazzCardGame, CassioSite];
+allProjects = [ChazzCardGame, CassioSite, BhaskaraOnline, FinancialOrganizer];
 
 const renderProjects = (place, arr) => {
   for (let e of arr) {
